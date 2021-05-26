@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <link rel="stylesheet" href="./styles/main.scss">
+  </head>
+  <body>
+    <header class="header">
+      <span class="header__logo">
+        <a href="./index.html">
+          <img src="images/logo.png" alt="Logo">
+        </a>
+      </span>
+
+      <h2 class="header__title">Здесь Вы можете увидеть свои покупки &#128293 &#128293 &#128293</h2>
+
+      <div class="header__basket">
+        <a href="./basket.html">
+          <img class="header__img" src="./images/basket.png" alt="basket">
+        </a>
+      </div>
+    </header>
+
+    <section class="title">
+      <h2 class="title__text">Ваша корзина пуста :(</h2>
+      <p>Давайте это исправим?!</p>
+      <p>Посмотрите в
+        <a class="title__link" href="#">акциях</a>, загляните в
+        <a class="title__link" href="#">идеи подарков</a> и
+        <a class="title__link" href="#">распродажу</a></p>
+    </section>
+    <div class="title__basket">
+      <img src="./images/shopping-basket.svg" alt="shopping-basket">
+    </div>
+
+    <footer class="footer">
+      <div class="footer__wrap">
+        <div class="contact">
+          <div class="contact__us">
+            <h2 class="contact__h2">Contact form</h2>
+            <form
+              class="contact__form"
+              action="#"
+              method="GET"
+              autocomplete="off"
+            >
+              <input
+                class="contact__name contact__form--input"
+                type="text"
+                name="name"
+                required
+                placeholder="Your Name"
+                autocomplete="off"
+              >
+              <input
+                class="contact__email contact__form--input"
+                type="email"
+                name="email"
+                required
+                placeholder="E-Mail"
+                autocomplete="off"
+              >
+              <input
+                class="contact__number contact__form--input"
+                type="tel"
+                name="tel"
+                required
+                min="10"
+                max="13"
+                placeholder="Phone Number"
+                autocomplete="off"
+              >
+              <textarea
+                class="contact__feedback contact__form--input"
+                name="feedback"
+                cols="10"
+                rows="1"
+                required
+                placeholder="Your Message"
+                autocomplete="off"
+              ></textarea>
+              <button type="submit" class="contact__button">send a message</button>
+            </form>
+          </div>
+        <div class="footer__adres">
+          <p class="footer__text">Ukraine</p>
+          <a href="mailto:hello@miami.com" class="footer__text">support.mountain@gmail.com</a>
+          <a href="tel:+380934476839" class="footer__text">+380934476839</a>
+          <p class="footer__text">Support is available Monday - Friday 9am-6pm</p>
+          <div class="footer__icon">
+            <a class="footer__img" href="https://uk-ua.facebook.com/">
+              <img
+                class="footer__sol"
+                src="./images/facebook.svg"
+                alt="facebook"
+              >
+            </a>
+            <a class="footer__img" href="https://www.instagram.com/">
+              <img
+                class="footer__sol"
+                src="./images/instagram.svg"
+                alt="instagram"
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

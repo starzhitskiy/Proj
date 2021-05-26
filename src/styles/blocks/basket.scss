@@ -1,0 +1,21 @@
+.title {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+
+  &__basket {
+    width: 10%;
+    height: 10%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 200px;
+  }
+
+  &__text {
+    padding-bottom: 20px;
+  }
+
+  &__link {
+    color: cornflowerblue;
+  }
+}
