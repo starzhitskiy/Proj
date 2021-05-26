@@ -1,0 +1,44 @@
+.shop {
+  display: flex;
+  &__categories {
+    max-width: 350px;
+    padding: 20px;
+  }
+
+  &__section {
+    display: none;
+  }
+
+  &__title{
+    padding-bottom: 30px;
+    width: max-content;
+    &:hover .shop__section {
+      display: inline;
+    }
+  }
+
+  &__hidden {
+    padding-left: 40px;
+    background-color: #3b4fb6; 
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 30%;
+    width: max-content;
+    &:hover {
+      background-color: cyan;
+    }
+  }
+
+  &__fon {
+    width: 100%;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: calc(100vh - 64px);
+    display: block;
+  }
+}
